@@ -1,3 +1,0 @@
-Sitemap: https://klimarooms.gr/sitemap.xml
-User-Agent: *
-Disallow: 

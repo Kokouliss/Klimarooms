@@ -1,0 +1,481 @@
+
+body {
+font-family:  "Helvetica Neue" , "Helvetica Neue Light", "HelveticaNeue-Light" , Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-size:15px;
+font-weight: 300;
+letter-spacing:1px;
+
+
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: url('../klimagif.gif') 50% 50% no-repeat rgb(255,255,255);
+}
+
+
+
+.map-frame {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.map-content {
+    z-index: 10;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 390px;
+    background-color: black;
+    color: #FFF;
+}
+
+
+.widthcontrol{
+	margin-left:5%;
+	max-width:90%;
+}
+@media only screen and (max-width: 514px){
+.navbar-nav > li {
+	 
+
+	 font-size: 90%;
+}
+
+
+}
+@media only screen and (max-width: 493px){
+.navbar-nav > li {
+	 
+	 font-size: 80%;
+
+}
+
+
+}
+
+@media only screen and (max-width: 455px){
+.navbar-nav > li {
+	 
+	 font-size: 70%;
+
+}
+
+
+}
+
+@media only screen and (max-width: 409px){
+.navbar-nav > li {
+	 
+	 font-size: 60%;
+
+}
+
+
+}
+
+@media only screen and (max-width: 376px){
+.navbar-nav > li {
+	 
+	 font-size: 50%;
+
+}
+
+
+}
+
+@media only screen and (max-width: 332px){
+.navbar-nav > li {
+	 
+	 font-size: 40%;
+
+}
+
+
+}
+
+@media only screen and (max-width: 290px){
+.navbar-nav > li {
+	 
+	 font-size: 30%;
+
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 766px){
+	.transparent  {
+
+background-color: rgba(0, 0, 0, 0.5)!important;
+margin: 0px 0px!important;
+	color:black!important;
+}
+
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(27, 51, 0);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(27, 51, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.imgfix{
+	
+        height: 500px;
+        width: 500px;
+        object-fit: contain;
+}
+.viewclass{
+color:white;
+z-index:1;
+	
+	
+}
+.navcombo{
+	
+background-color:#343a40;!important
+
+}
+a .btnbook {
+text-decoration: none;
+			color:white!important;
+}
+.btnbook{
+	
+text-decoration-line:none;
+}
+
+.btnbook:hover{
+	
+	background-color:#004c00!important;
+	color:white!important;
+text-decoration: none!important;
+}
+
+.bgcolorbook{
+	background-color:#001B00;
+}
+
+.double{
+	
+	 text-decoration-line: underline;
+    text-decoration-style: double;
+	text-decoration-style
+}
+.navgridselect {
+
+border-style: solid ;	
+
+
+border-width:2px;
+
+border-color:#396728;
+}
+
+.halfblack{
+background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+input[type=date] {
+
+  color: #fff;
+}
+
+input[type=date] {
+
+  color: #fff;
+}
+
+.halfblack>ul{
+margin: 100px 100px;
+}
+.transparent{
+	
+	background-color:transparent;
+    margin-top: 30px;
+}
+.klimabrand{
+	width:130px;
+	height:auto;
+
+}
+
+.klimabrandfoo{
+	width:140px;
+	height:auto;
+
+}
+
+
+.map {
+    height: 440px;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 10px
+}
+
+.bgimage {
+  width:100%;
+  height:1060px;
+  background-image: url("../img/klimahero.jpg") ;
+	opacity: 0.80;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  
+	position:absolute;
+
+
+
+}
+.nav-item a{
+	color:white;
+}
+.form-text{
+	text-shadow: 1px 2px black;
+}
+::placeholder {
+    color: white !important;
+
+}
+.form-control {
+	background-color:rgba(0,0,0,0.7) ;
+
+}
+
+
+
+.hover-underline-animation2 {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+}
+.hover-underline-animation2::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #396728;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  margin-bottom:-4px;
+}
+
+.hover-underline-animation2:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.wtff{
+	color:white!important;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+   text-decoration: none!important;
+}
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  text-decoration: none;
+}
+
+
+.fa-facebook-square:hover{
+	color:#3f5d9a !important;
+	  transition: 0.3s !important;
+}
+
+.fa-tripadvisor:hover{
+	color:#fddb7f !important;
+	  transition: 0.3s !important;
+}
+
+.fa-facebook-messenger:hover{
+	color:white !important;
+	  transition: 0.3s !important;
+}
+.jumbotron{
+	background-color:transparent !important;
+}
+
+.display-4 {
+    overflow: hidden;
+    text-align: center;
+	font-size:28px !important;
+
+}
+.display-4:before,
+.display-4:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.display-4:before {
+    right: 1%;
+    margin-left: -50%;
+}
+.display-4:after {
+    left: 1%;
+    margin-right: -50%;
+}
+
+
+
+
+
+
+
+.display-0 {
+    overflow: hidden;
+    text-align: center;
+	font-size:28px !important;
+
+}
+.display-0:before,
+.display-0:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 10%;
+}
+.display-0:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.display-0:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+
+
+
+
+
+.card-link{
+	color: black;
+	text-decoration:none !important;
+}
+
+a svg .st0 { 
+  fill: #c7c9c9;;
+}
+
+a svg .st1 { 
+  fill: #c7c9c9;;
+}
+
+a svg:hover .st0 { 
+  fill: #014f91;
+  transition: 0.3s !important;
+}
+
+a svg:hover .st1 { 
+  fill: #019ee3;
+  transition: 0.3s !important;
+}
+
+
+.bgcolor{
+	
+	background-color:#fafafa;	
+}
+
+
+
+.circle {
+  position: relative;
+}
+
+
+
+.circle strong {
+  position: absolute;
+  top: 60px;
+  left: 62px;
+  font-size: 18px;
+  
+}
+
+
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 16px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+
+
